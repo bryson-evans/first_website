@@ -1,0 +1,123 @@
+:root {
+    --clr-primary:#4452BD;  
+    --clr-secondary:#21ADBB;
+    --clr-third:#0D71C4;
+    --clr-fourth:#153AC4;
+    --txt-clrp: #0000;
+    --txt-clrs:#FAF9F6;
+    --ff-primary:'Urbanist', sans-serif;
+    --ff-secondary: 'Raleway', sans-serif;
+}
+
+h1 {
+    
+    font-weight: 200;
+    font-size: 100pt;
+}
+
+body{
+    margin-top: 10px;
+    background-color: var(--txt-clrs);
+    padding: 0;
+    margin:0;
+}
+
+.beginning{
+    align-self: center;
+    text-align: center;
+}
+
+    #nameTitle{
+        margin: 5px;
+    }
+
+    #nameDescription{
+        font-family: var(--ffprimary);
+        font-size: 20pt;
+        font-weight: 200;
+        color: var(--clr-primary-);
+        margin-bottom: 50px;
+    }
+
+    .photoText{
+        display:flex;
+        margin-left: 75px;
+        margin-right: 75px;
+        margin-bottom: 75px;
+    }
+
+   
+    #self{
+        display: block;
+        width:50%;
+        float:left;
+    }
+    
+    #selfText{
+        display: block;
+        width:50%;
+        float:right;
+        padding-top: 50px;
+        text-align: center;
+        font-size: 25pt;
+        font-family: var(--ff-secondary);
+        font-weight: 150;
+        padding: left 75px right 75px;
+    }
+
+    .myself {
+        display: flex;
+        background-color: var(--clr-primary);
+    }
+    .myselfbox {
+        width:500px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .myselfbox img {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .myselfbox h3{
+        font-family: var(--ff-primary);
+        font-weight: 500;
+        font-size: 20pt;
+        color: var(--clr-third);
+
+    }
+
+    .myselfbox p{
+        font-family: var(--ff-secondary);
+        font-weight: 400;
+        color: var(--txt-clrs)
+    }
+
+    .quote{
+        display: flex;
+        flex-direction: column;
+        background-color: var(--text-clrs);
+        text-align: center;
+    }
+
+.quote h3{
+    font-family: var(--txt-clrs);
+    color: var(--ff-primary);
+    font-size: 50pt;
+    padding-bottom: 15pt;
+}
+
+footer{
+    background-color: var(antiquewhite);
+    padding:20px;
+    text-align: center;
+
+}
+.footer-content{
+    color: var(--txt-clrp);
+}
+.footer-content{
+    color: var(--txt-clrp-);
+    text-decoration: none;
+}
